@@ -1,17 +1,51 @@
-import { useRouter } from 'next/router'
+import DefaultHeaders from '../comp/DefaultHeaders.js'
+import Link from 'next/link'
 
-function CustomError({ statusCode, sitePath }) {
+function CustomError({ statusCode }) {
+	let statusText;
+	// 'statusIcon' IS A LOCAL URL PATH
+	let statusIcon;
+	switch(statusCode){
+		case 400:
+			statusText = "Bad request."
+			break;
+		case 401:
+			statusText = "Unauthorized."
+			break;
+		case 403:
+			statusText = "Forbidden."
+			break;
+		case 404:
+			statusText = "File or resource not found.";
+			statusIcon = "/static/";
+			break;
+		case 405:
+			statusText = "Method not allowed."
+			break;
+		case 429:
+			statusText = "Too many requests."
+			break;
+		case 500:
+			statusText = "Internal server error."
+			break;
+		case 502:
+			statusText = "Bad gateway."
+			break;
+	}
 	return (
-		<div className="bg-black h-screen w-screen">
-			<img
-				alt="Showing a properly cat according the status code"
-				width="100%"
-				src={`https://http.cat/${statusCode}`}
-			/>
-			<figcaption>
-				<h1>{statusCode}</h1>
-			</figcaption>
-		</div>
+		<>
+			<DefaultHeaders />
+			<div className=''>
+				<div className="chpe gap-4 flex items-center justify-center flex-col bg-black h-screen w-screen text-3xl text-white">
+					<h1 className="">ERROR {statusCode} - {statusText}</h1>
+					<div className="items-left justify-left">
+						<h1 className="">
+							Want to <span className="text-blue-700"><Link href="/">go home</Link></span>?
+						</h1>
+					</div>
+				</div>
+			</div>
+		</>
 	);
 }
 
