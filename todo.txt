@@ -1,0 +1,4 @@
+TODO:
+0	- Translate all pages into deutsch.
+1	- Possibly see if I need to improve the "/tfc" page.
+2	- Decide if i should translate it into deutsch *AND* svenska.
