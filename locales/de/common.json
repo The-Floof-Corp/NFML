@@ -1,0 +1,46 @@
+{
+    "errorText": "FEHLER",
+    "error400text": "Ungültige anforderung.",
+    "error401text": "Unbefugt.",
+    "error403text": "Verboten.",
+    "error404text": "Datei oder ressource nicht gefunden.",
+    "error405text": "Methode nicht erlaubt.",
+    "error429text": "Zu viele anfragen.",
+    "error500text": "Interner serverfehler.",
+    "error502text": "Schlechtes gateway.",
+
+
+    "i am": "Ich bin",
+
+
+    "home": "Hause",
+
+
+    "do you want to": "Willst du nach",
+    "go home": "hause gehen",
+    
+    
+    "cttcv": "Copied to the clipboard! \nValue: ",
+
+    "about me": "About Me",
+    "hello": "Hallo!",
+    "my name is": "Mein name ist Ash (oder Ashley).",
+    "i like": "I like programming, watching netflix shows and ",
+    "my cat": "my cat",
+    "i am learning": "Currently, I am learning:",
+    "ial0": "JavaScript",
+    "ial1": "NextJS and TailwindCSS!! (the things that built this site! yay).",
+    "ial2": "A small bit of python (sometimes)",
+    "ial3": "Deutsch and Svenska! (I will admit, I did use Google Translate for a lot of this site. I did, however, verify the translations with others! Thank you, staxTheFoxxo!!))",
+    "itf": "In the future, I wish to become a software engineer! I'm not too sure where though yet..",
+    
+
+    "about tfc": "About Us",
+    "ctfciti": "Currently, The Floof Corp isn't that interesting.",
+    "wbhap": "We have barely *any* projects, and most of them are discontinued or undeveloped at all.",
+    "hitficut": "Hopefully, in the future I will be able to update this page with some projects, in development or finished. But that just isn't the case right now.",
+    "stfc": "Sincerely, The Floof Corp.",
+
+
+    "globalPageTitle": "floof.ml"
+}

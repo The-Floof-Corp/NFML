@@ -1,0 +1,3 @@
+TODO:
+0	- Translate all pages into deutsch.
+1	- Decide if i should translate it into deutsch *AND* svenska.
