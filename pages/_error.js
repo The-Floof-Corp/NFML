@@ -6,9 +6,6 @@ import useTranslation from 'next-translate/useTranslation'
 
 function CustomError({ statusCode }) {
 	const { t } = useTranslation("common");
-	let statusText;
-	// 'statusIcon' IS A LOCAL URL PATH
-	let statusIcon;
 
 	return (
 		<>
